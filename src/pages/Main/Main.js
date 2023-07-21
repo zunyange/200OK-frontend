@@ -28,8 +28,8 @@ const Main = () => {
               src={img}
               alt={infor}
               style={{
-                // transform: `translate(${mainImg * -1920}px)`,
-                transform: `translate(${mainImg} * ${-mainImg}px)`,
+                transform: `translate(${mainImg * -1420}px)`,
+                // transform: `translate(${mainImg} * ${-mainImg}px)`,
                 transition: `2s`,
               }}
             />
@@ -45,7 +45,7 @@ const Main = () => {
 export default Main;
 
 const MAINIMAGES = [
-  { id: 1, img: '/images/mainSlide3.jpg', infor: '랩퍼 사진' },
-  { id: 2, img: '/images/mainSlide1.jpg', infor: '반팔 사진' },
-  { id: 3, img: '/images/mainSlide2.jpg', infor: '청바지 사진' },
+  { id: 1, img: '/images/mainSlide1.jpg', infor: '반팔 사진' },
+  { id: 2, img: '/images/mainSlide2.jpg', infor: '청바지 사진' },
+  { id: 3, img: '/images/mainSlide3.jpg', infor: '패딩 사진' },
 ];
